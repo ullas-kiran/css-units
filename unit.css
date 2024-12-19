@@ -17,6 +17,7 @@ html {
 /* 
 Rem Unit: The rem (root em) unit is based on the font size of the root element, typically the <html>.
 For example, if the font size of the root element is set to 16 pixels, then 1rem is equal to 16 pixels.
+rem always looking at the root
 
 
 Em Unit: The em unit is based on the font size of the parent element.
@@ -24,6 +25,9 @@ For example, if the font size of a parent element is set to 16 pixels, then 1em 
 but if u put margin or padding  it take font size as the parent size 
 */ 
 
+h1{
+    font-size: 12em;
+}
 
 
 .header {
